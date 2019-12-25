@@ -1,0 +1,132 @@
+
+@font-face { font-family: Unseen; src: url('theUnseen.ttf'); } 
+
+#title{
+	font-family: Unseen;
+	font-size: 120px;
+	text-shadow: 2px 2px white;
+    background-color: rgba(255, 238, 230, 0.3) ; 
+    position: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 25px;
+
+}	
+
+#all{
+    /**/
+}
+
+
+#getReady{
+	background-color: white;
+	border: 2px solid black;
+	font-size: 30px;
+
+}
+
+.sketch{
+	font-size: 40px;
+	text-shadow: 2px 2px lightgrey;
+
+}
+
+.selectBtn{
+	background-color: white;
+	font-size: 20px;
+	border: 1px solid black;
+}
+
+.gridOptions{
+	font-size: 20px
+}
+
+.clpkr{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+}
+
+body {
+	font-family: Unseen;
+    padding-top: 150px; 
+    text-align: center;
+	background-color:rgba(255, 218, 185, 0.5);  
+    padding-bottom: 250px;
+}
+
+
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('http://wallpaper-gallery.net/images/doodle-art-wallpaper/doodle-art-wallpaper-7.jpg');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-size: 100%;
+    opacity: 0.2;
+    filter:alpha(opacity=80);
+    z-index: -1;
+}
+
+
+h1 {
+    font-size: 70px;
+    margin: 0.2em;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+/*table,
+tr,
+td {
+    border: 10px solid black;    
+}*/
+
+ table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+tr {
+    height: 5px;
+    border: none;
+  
+
+}
+
+td {
+    width: 5px; 
+    border: none;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+		
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="http://www.1001fonts.com/the-unseen-font.html">
+
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0=" crossorigin="anonymous"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/jspdf/1.2.61/jspdf.min.js"></script>
+
+
+    <title>Pixel Art Maker!!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
+    <link rel="stylesheet" href="styles.css">
+
+ 
+
+
+</head>
+
+<div id="background"></div>
+
+<body >			
+
+
+
+
+    <h1 id="title">Lab: Pixel Art Maker</h1>
+
+    <button id="getReady" class="btn btn-default">Click when ready</button>
+
+    <div id="all" hidden="true">  
+
+    <h2 class="sketch">Choose Grid Size</h2>
+
+
+      <form id="sizePicker">
+
+       <span class="gridOptions">Grid Height:</span> 
+        <input type="number" id="inputHeight" name="height" min="1" value="100" style="width: 50px">
+        
+        <span class="gridOptions">Grid Width: </span>
+        
+        <input type="number" id="inputWeight" name="width" min="1" value="100" style="width: 50px">
+
+        <h2 class="sketch">Pick A Color</h2>
+    	<input class="clpkr" type="color" id="colorPicker">
+
+
+    	
+
+
+
+    	<div>
+    		<br>
+    		<input type="submit"  class="selectBtn" class="btn btn-default"  onclick="randombg()">
+    		<button id="reset" class="selectBtn" class="btn btn-default"  >Reset Grid</button>
+    	</div>
+
+
+    	<a class="mailto" href="mailto:contact@test.com">Mail</a>
+    </form>
+
+
+
+
+
+<form id="smdiv">
+    <div id="content">
+
+       <input type="text" name="name"/>
+
+ <!-- <h2 class="sketch">Design Canvas</h2> -->
+
+<div id="canvas">
+  <table id="pixelCanvas" ></table>
+
+</div>
+  
+    
+
+
+
+  </div>
+ </form>
+        <button id="cmd">create PDF</button>
+
+
+
+
+   
+
+    
+
+
+    </div>
+
+
+
+
+<!-- 
+<div id="content">
+     <h3>Hello, this is a H3 tag</h3>
+
+    <p>a pararaph</p>
+</div>
+
+
+<div class="container">
+        <div align="center">
+          <h1 align="center" id="download_pdf" class="glyphicon glyphicon-download" style="cursor:pointer;" title="Click to Download Page as PDF"></h1>
+        </div>
+        <br>
+        <section id="page_content">
+        
+        
+        // Content goes here, for pdf format
+        
+        
+        </section>
+      </div> -->
+
+
+
+
+
+
+
+
+</body>
+
+
+
+  
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+   <script src="designs.js"></script>
+
+<!--  -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+   <!--  -->
+
+</html>
+
